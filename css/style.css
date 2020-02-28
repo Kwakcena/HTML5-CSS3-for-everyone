@@ -4,17 +4,19 @@
   background-color: gray;
 }
 
-#position_fixed_parent {
+#position_relative_parent {
   width: 500px;
-  height: 500px;
+  /* height: 500px; */
   background-color: yellow;
 }
 
-#position_fixed_child {
-  position: fixed;
+#position_relative_child {
+  position: relative;
   width: 200px;
   height: 200px;
   background-color: blue;
+  /* margin-top: 100px; */
+  /* top: 100px; */
 }
 
 #box2 {
